@@ -1,0 +1,1 @@
+echo ABc | tr AC Ze
