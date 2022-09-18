@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $T | bc -l | xargs printf "%.2f"
+dc <<< "2 k $(date +%N) 1000000000 / p"
