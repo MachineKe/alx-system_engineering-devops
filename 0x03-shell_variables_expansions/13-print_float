@@ -1,2 +1,2 @@
 #!/bin/bash
-dc <<< "2 k $(date +%N) 1000000000 / p"
+printf '%.2f\n' $NUM
